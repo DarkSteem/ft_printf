@@ -6,7 +6,7 @@
 /*   By: nberen <nberen@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/26 15:08:07 by nberen            #+#    #+#             */
-/*   Updated: 2022/01/08 16:35:17 by nberen           ###   ########.fr       */
+/*   Updated: 2022/01/09 13:09:59 by nberen           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ int	ft_identification(const char *s, va_list ap)
 	else if (*s == 'x' || *s == 'X')
 		i += ft_print_16(va_arg(ap, unsigned int), *s);
 	else if (*s == 'p')
-		i += ft_print_ptr(va_arg(ap, void *));
+		i += ft_print_pointer(va_arg(ap, void *));
 	else if (*s == '%')
 		i += ft_print_char('%');
 	else if (*s == ' ')

@@ -6,7 +6,7 @@
 /*   By: nberen <nberen@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/01/08 16:35:12 by nberen            #+#    #+#             */
-/*   Updated: 2022/01/08 16:35:14 by nberen           ###   ########.fr       */
+/*   Updated: 2022/01/09 13:09:58 by nberen           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,7 @@
 
 int	ft_print_char(char c)
 {
-	write(1, &c, 1);
-	return (1);
+	return (write(1, &c, 1));
 }
 
 int	ft_print_string(char *s)
@@ -61,7 +60,7 @@ int	ft_print_16(unsigned long int nbr, int c)
 	return (i);
 }
 
-int	ft_print_ptr(void *ptr)
+int	ft_print_pointer(void *ptr)
 {
 	size_t	nbr;
 	int		i;

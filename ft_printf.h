@@ -6,7 +6,7 @@
 /*   By: nberen <nberen@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/26 15:08:57 by nberen            #+#    #+#             */
-/*   Updated: 2022/01/08 16:35:20 by nberen           ###   ########.fr       */
+/*   Updated: 2022/01/09 13:10:12 by nberen           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,6 @@ int		ft_print_char(char c);
 int		ft_print_string(char *s);
 int		ft_print_int(long int nbr);
 int		ft_print_16(unsigned long int nbr, int c);
-int		ft_print_ptr(void *ptr);
+int		ft_print_pointer(void *ptr);
 
 #endif
